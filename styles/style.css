@@ -16,8 +16,7 @@ body {
     background: url("../assets/images/elif-koyuturk-unsplash.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
-    flex-basis: 40%;
-
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,12 +29,13 @@ body {
     align-items: center;
     margin-top: 30%;
     background: rgba(0, 0, 0, .5);
-    padding: 1rem;
+    padding: 1rem 0;
+    height: 120px;
+    width: 100%;
 }
 
 .logo > img {
-    width: 30%;
-    height: auto;
+    max-height: 100%;
 }
 
 
@@ -65,6 +65,7 @@ body {
 .content {
     margin-top: 15%;
     padding-left: 2rem;
+    height: 30%;
 }
 
 p {
@@ -73,8 +74,9 @@ p {
 }
 
 form {
-    margin-top: 5rem;
-    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.50);
+    background-color: #FFF;
+    height: 40%;
 }
 
 .form-container {
@@ -95,6 +97,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    width: 32%;
 }
 
 label {
@@ -107,6 +110,7 @@ label {
 input {
     border: 1px solid  #E5E7EB;
     border-radius: 2px;
+    padding: 6px;
 }
 
 .content-button {
@@ -123,7 +127,7 @@ button {
     border: none;
     font-weight: bold;
     padding: 0.50rem 2rem;
-    width: 40%;
+    width: 27%;
 }
 
 .content-button > div {
