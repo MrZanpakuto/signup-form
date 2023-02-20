@@ -113,6 +113,10 @@ input {
     padding: 6px;
 }
 
+input:focus {
+    border: blue;
+}
+
 .content-button {
     padding: 2rem 2rem;
     display: flex;
